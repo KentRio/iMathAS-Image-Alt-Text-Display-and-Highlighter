@@ -7,6 +7,7 @@
 // @match        *://*/course/testquestion2.php*
 // @grant        none
 // @run-at       document-end
+// @license      GPL-2.0-only
 // ==/UserScript==
 
 (function() {
