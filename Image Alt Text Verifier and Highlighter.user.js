@@ -5,6 +5,7 @@
 // @description  Displays image alt text as a tooltip (view by hovering with the mouse) by copying it to the title attribute for tooltips. This also adds a yellow shadow to images which are missing alt text to highlight them.
 // @author       Gemini (in consultation with Kent Slack)
 // @match        *://*/course/testquestion2.php*
+// @match        *://*/*assess2*
 // @grant        none
 // @run-at       document-end
 // @license      GPL-2.0-only
