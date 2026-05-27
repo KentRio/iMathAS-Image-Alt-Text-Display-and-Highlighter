@@ -1,13 +1,13 @@
 // ==UserScript==
-// @name         Image Alt Text Verifier & Highlighter
+// @name         iMathAS Image Alt Text Displayer & Highlighter
 // @namespace    https://tampermonkey.net/
 // @version      1.1
-// @description  Copies image alt text to the title attribute for tooltips and highlights images missing alt text with a yellow shadow.
-// @author       Gemini
+// @description  Displays image alt text as a tooltip (view by hovering with the mouse) by copying it to the title attribute for tooltips. This also adds a yellow shadow to images which are missing alt text to highlight them.
+// @author       Gemini (in consultation with Kent Slack)
 // @match        *://*/course/testquestion2.php*
 // @grant        none
 // @run-at       document-end
-// ==UserScript==
+// ==/UserScript==
 
 (function() {
     'use strict';
